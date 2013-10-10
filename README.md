@@ -2,11 +2,11 @@ This is a morse code translator. It can translate ASCII text into ASCII morse an
 
 The syntax is:
 
-$ morsetran <ASCII text>
+$ morsetran ASCII text
 
 or,
 
-$ morsetran <ASCII morse code>
+$ morsetran ASCII morse code
 
 It will auto detect if you enter either text or morse code.
 
