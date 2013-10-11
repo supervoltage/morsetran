@@ -1,17 +1,12 @@
-This is a morse code translator. It can translate ASCII text into ASCII morse and vice versa.
+Usage: ./morsetran [TEXT]
+       ./morsetran [MORSE]
+Translate text into morse code or morse code into text.
 
-The syntax is:
+  -h, --help		display this help
 
-$ morsetran ASCII text
+Examples:
+	./morsetran example text
+	./morsetran . -..- .- -- .--. .-.. .  / -- --- .-. ... .
 
-or,
+Report bugs and suggestions to <ubervoltage@gmail.com>
 
-$ morsetran ASCII morse code
-
-It will auto detect if you enter either text or morse code.
-
-"." -> Dit
-"-" -> Dah
-"/" -> Space
-
-The ASCII text has to be in all capital letters, momentarily. I will change this in the future.
