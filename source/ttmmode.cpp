@@ -28,57 +28,57 @@ void textToMorseMode(int argc, char **argv)
 
 string getMorse(char str)
 {
-	if(str == 'A')
+	if(str == 'A' || str == 'a')
 		return ".-";
-	else if(str == 'B')
+	else if(str == 'B' || str == 'b')
 		return "-...";
-	else if(str == 'C')
+	else if(str == 'C' || str == 'c')
 		return "-.-.";
-	else if(str == 'D')
+	else if(str == 'D' || str == 'd')
 		return "-..";
-	else if(str == 'E')
+	else if(str == 'E' || str == 'e')
 		return ".";
-	else if(str == 'F')
+	else if(str == 'F' || str == 'f')
 		return "..-.";
-	else if(str == 'G')
+	else if(str == 'G' || str == 'g')
 		return "--.";
-	else if(str == 'H')
+	else if(str == 'H' || str == 'h')
 		return "....";
-	else if(str == 'I')
+	else if(str == 'I' || str == 'i')
 		return "..";
-	else if(str == 'J')
+	else if(str == 'J' || str == 'j')
 		return ".---";
-	else if(str == 'K')
+	else if(str == 'K' || str == 'k')
 		return "-.-";
-	else if(str == 'L')
+	else if(str == 'L' || str == 'l')
 		return ".-..";
-	else if(str == 'M')
+	else if(str == 'M' || str == 'm')
 		return "--";
-	else if(str == 'N')
+	else if(str == 'N' || str == 'n')
 		return "-.";
-	else if(str == 'O')
+	else if(str == 'O' || str == 'o')
 		return "---";
-	else if(str == 'P')
+	else if(str == 'P' || str == 'p')
 		return ".--.";
-	else if(str == 'Q')
+	else if(str == 'Q' || str == 'q')
 		return "--.-";
-	else if(str == 'R')
+	else if(str == 'R' || str == 'r')
 		return ".-.";
-	else if(str == 'S')
+	else if(str == 'S' || str == 's')
 		return "...";
-	else if(str == 'T')
+	else if(str == 'T' || str == 't')
 		return "-";
-	else if(str == 'U')
+	else if(str == 'U' || str == 'u')
 		return "..-";
-	else if(str == 'V')
+	else if(str == 'V' || str == 'v')
 		return "...-";
-	else if(str == 'W')
+	else if(str == 'W' || str == 'w')
 		return ".--";
-	else if(str == 'X')
+	else if(str == 'X' || str == 'x')
 		return "-..-";
-	else if(str == 'Y')
+	else if(str == 'Y' || str == 'y')
 		return "-.--";
-	else if(str == 'Z')
+	else if(str == 'Z' || str == 'z')
 		return "--..";
 	else if(str == '0')
 		return "-----";
