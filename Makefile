@@ -12,4 +12,4 @@ clean:
 	rm -f $(PROG) *.o
 
 install:
-	install -m755 $(PROG) /usr/bin
+	install -m755 $(PROG) $(DESTDIR)/usr/bin
